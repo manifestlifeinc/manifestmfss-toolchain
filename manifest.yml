@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: manifestmfss
+  host: manifestmfss
+  disk_quota: 1024M
+  services:
+  - manifestmfss-AdvancedMobileAccess
+  - manifestmfss-imfpush
+  - manifestmfss-cloudantNoSQLDB
